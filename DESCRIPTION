@@ -17,3 +17,5 @@ LinkingTo:
     RcppArmadillo
 Imports: 
     Rcpp
+URL: https://github.com/zamorarr/riskslimr.glpk
+BugReports: https://github.com/zamorarr/riskslimr.glpk/issues
