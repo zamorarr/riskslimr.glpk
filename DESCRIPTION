@@ -1,0 +1,19 @@
+Package: riskslimr.glpk
+Title: GLPK backend for riskslimr
+Version: 0.0.1
+Authors@R: 
+    person(given = "Robert",
+           family = "Zamora",
+           role = c("aut", "cre"),
+           email = "zamora.rr@gmail.com")
+Description: GLPK backend for riskslimr
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 6.1.1
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo
+Imports: 
+    Rcpp
