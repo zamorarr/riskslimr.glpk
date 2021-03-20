@@ -225,8 +225,8 @@ Rcpp::List lcpa_cpp(arma::mat x, arma::vec y, int R_max = 3, int time_limit = 60
   lcpa_add_matrix(mip, d, intercept_min, intercept_max, coef_min, coef_max);
 
   // write problem
-  glp_write_lp(mip, NULL, "problem.lp");
-  glp_write_mps(mip, GLP_MPS_FILE, NULL, "problem.mps");
+  //glp_write_lp(mip, NULL, "problem.lp");
+  //glp_write_mps(mip, GLP_MPS_FILE, NULL, "problem.mps");
   //glp_write_mip(mip, "mip.lp");
 
   // trying to fix numerical instability
